@@ -1,0 +1,7 @@
+from os import environ
+
+DEBUG=True
+SECRET_KEY="secret_sauce"
+SESSION_COOKIE_HTTPONLY=True
+REMEMBER_COOKIE_HTTPONLY=True
+SESSION_COOKIE_SAMESITE="Strict"
